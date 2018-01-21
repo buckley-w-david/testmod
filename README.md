@@ -14,3 +14,12 @@ $ pip install -e .
 The `-e` option in the install command is optional, it installs the package in editable mode, meaning if you make a change to the source it will be reflected in the package without needing to re-install it.
 
 You can provide `pip install` with any path to a valid python package, this examle simply uses one in the current directory.
+
+# Usage Instructions
+
+```
+$ python
+>> from testmod import functions
+>> functions.add(3, 2)
+5
+```
